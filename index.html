@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- Script for icons use -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Travel Now</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="search-bar-container">
+        <div class="search-bar">
+          <ion-icon name="search-outline" class="search-icon-mobile"></ion-icon>
+          <input
+            style="background: transparent; border: none"
+            type="text"
+            class="text"
+            placeholder="Where are you going?"
+          />
+        </div>
+      </div>
+      <div class="container header-nav">
+        <div>
+          <a href="#" class="logo-box">
+            <img src="images/travelNow Logo PNG.png" alt="logo" class="logo" />
+          </a>
+        </div>
+        <div class="primary-nav">
+          <ul class="primary-nav-list">
+            <li><a href="#" class="primary-nav-link">Home</a></li>
+            <li>
+              <a href="#main-section" class="primary-nav-link primary-nav-link-center"
+              >Destinations</a
+              >
+            </li>
+            <li>
+              <a href="#activities" class="primary-nav-link primary-nav-link-center"
+              >Activities</a
+              >
+            </li>
+            <li>
+              <a href="#about-us" class="primary-nav-link primary-nav-link-center"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#contact-us" class="primary-nav-link primary-nav-link-center"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="secondary-nav">
+          <ul class="secondary-nav-list">
+            <div class="gap-div">
+              <li><a href="#" class="secondary-nav-link">Register</a></li>
+              <li>
+                <a href="#" class="secondary-nav-link login">Log In</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-link-box d-flex flex-column">
+        <h1 class="heading">Explore the world</h1>
+        <p class="paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum hic,
+          eveniet dolores facere officia dolor eos consequuntur porro nobis
+          repudiandae sequi facilis? Rem, voluptatibus molestias!
+        </p>
+        <button class="btn">Book Now</button>
+      </div>
+    </header>
+
+    <section class="main-section" id="main-section">
+      <div class="sections-container">
+        <h2 class="heading-secondary">TOP DESTINATIONS</h2>
+        <h1 class="heading-primary">Choose your next destination now</h1>
+        <div class="images-box grid-3-cols">
+          <div class="box">
+            <img
+              src="/images/Thailand-Beaches-and-Scenery.jpg"
+              alt="image"
+              class="image"
+            />
+              <p class="image-paragraph">Beautiful Thailand</p>
+              <div class="parag-only-box">
+                <span class="span-text"
+                >Located at the centre of the Indochinese Peninsula, with a
+                population of almost 70 million people. Thailand is bordered to
+                the north by Myanmar and Laos, to the east by Laos and Cambodia,
+                to the south by the Gulf of Thailand and Malaysia, and to the west
+                by the Andaman Sea and Myanmar.<span class="span-learn-more">  It also shares maritime borders with Vietnam in the Gulf of Thailand to the southeast, and Indonesia and India (Andaman and Nicobar Islands) on the Andaman Sea to the southwest. Bangkok is the nation's capital and largest city. Nominally, Thailand is a constitutional monarchy and parliamentary democracy; however, in recent history, its government has experienced multiple coups and periods of military dictatorships.
+                  Tai peoples migrated from southwestern China to mainland Southeast Asia from the 11th century; the oldest known mention of their presence in the region by the exonym Siamese dates to the 12th century.</span></span
+                >
+              </div>
+              <button class="button-learn-1">Learn More</button>
+          </div>
+          <div class="box">
+            <img
+              src="/images/Australia-Sydney-1000x667.jpg"
+              alt="image"
+              class="image"
+            />
+            <p class="image-paragraph">Perfect Australia</p>
+            <div class="parag-only-box">
+              <span class="span-text"
+              >The largest country by area in Oceania and the world's
+              sixth-largest country. Australia's population of nearly 26
+              million, highly urbanised and heavily concentrated. Canberra is
+              the nation's capital, while other major metropolitan areas include
+              Melbourne, Brisbane, Perth, and Adelaide.<span class="span-learn-more-2"> Indigenous Australians inhabited the continent beginning about 65,000 years ago, prior to the first arrival of Dutch explorers in the early 17th century, who named it New Holland. In 1770, Australia's eastern half was claimed by Great Britain and initially settled through penal transportation to the colony of New South Wales from 26 January 1788, a date which became Australia's national day. The population grew steadily in subsequent decades, and by the time of an 1850s gold rush, most of the continent had been explored by European settlers and an additional five self-governing crown colonies established. On 1 January 1901, the six colonies federated, forming the Commonwealth of Australia. Australia has since maintained a stable liberal democratic political system that functions as a federal parliamentary constitutional monarchy, comprising six states and ten territories.</span></span
+              >
+            </div>
+            <button class="button-learn-2">Learn More</button>
+          </div>
+          <div class="box">
+            <img src="/images/greece.jpg" alt="image" class="image" />
+            <p class="image-paragraph">Amazing Greece</p>
+            <div class="parag-only-box">  
+              <span class="span-text"
+              >Located in Southeast Europe. Population of round 10.7 million
+              peole. Athens is its largest and capital city, followed by
+              Thessaloniki. Between the crossroads of Europe, Asia, and Africa.
+              It shares land borders with Albania to the northwest, North
+              Macedonia and Bulgaria to the north, and Turkey to the
+              northeast. <span class="span-learn-more-3"> Greece is considered the cradle of Western civilization, being the birthplace of democracy, Western philosophy, Western literature, historiography, political science, major scientific and mathematical principles, theatre and the Olympic Games. From the eighth century BC, the Greeks were organised into various independent city-states, known as poleis (singular polis), which spanned the Mediterranean and the Black Sea. Philip II of Macedon united most of present-day Greece in the fourth century BC, with his son Alexander the Great rapidly conquering much of the ancient world, from the eastern Mediterranean to India. The subsequent Hellenistic period saw the height of Greek culture and influence in antiquity. </span> </span
+              >
+            </div>
+            <button class="button-learn-3">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities" id="activities">
+      <div class="sections-container">
+        <h2 class="heading-secondary">Time Spending</h2>
+        <h1 class="heading-primary">Activities</h1>
+        <div class="activities-box">
+          <div class="features-box">
+            <div class="activities-features">
+              <ul class="activities-lists">
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Based in Tirana
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Travel Worldwide
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Find new friends
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Make fun
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Enjoy the day
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Feel Free
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  The way to go
+                </li>
+              </ul>
+              <ul class="activities-lists">
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Create Memories
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  New Places
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Different Destinations
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Do it Now
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  No worries
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  No Stress
+                </li>
+                <li class="activities-list d-flex">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark"
+                  ></ion-icon>
+                  Limitless time
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-box grid-images">
+            <div class="image-container">
+              <img
+                src="/images/bg-1.jpg"
+                alt="image-activities"
+                class="image-activities"
+              />
+            </div>
+            <div class="image-container">
+              <img
+                src="/images/bg-2.jpg"
+                alt="image-activities"
+                class="image-activities"
+              />
+            </div>
+            <div class="image-container">
+              <img
+                src="/images/bg-3.jpg"
+                alt="image-activities"
+                class="image-activities"
+              />
+            </div>
+            <div class="image-container">
+              <img
+                src="/images/bg-4.jpg"
+                alt="image-activities"
+                class="image-activities"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="sections-container">
+        <h2 class="heading-secondary">Our Story</h2>
+        <h1 class="heading-primary">About Us</h1>
+        <div class="about-box-main">
+          <div class="about-box">
+            <h1 class="heading-primary">Our Mission</h1>
+            <p class="about-story">
+              Welcome to Travel Now, your number one source for all your trips. We're dedicated to providing you the very best of travelling, exploring and making fun.<span class="new-line"> Founded in 2019, Travel Now has come a long way from its beginnings in Tirana, Albania.</span> Everything started out of our passion for exploring new places and drove us to start this business. We hope you enjoy the trips as much as we enjoy offering them to you. 
+              <span class="new-line">If you have any questions or comments, please don't hesitate to contact us.</span>
+              We're turning the world’s happiest moments into lasting memories—one couple at a time.
+            </p>
+            <div class="button-box">
+              <a href="#contact-us" type="button" class="button-contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+      <div class="sections-container">
+        <div class="contact-form">
+          <h3 class="heading-secondary">Drop a Message</h3>
+          <h2 class="heading-primary">Contact Us</h2>
+          <form>
+            <div class="row">
+              <div class="col-xl-6 col-sm-12">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name *"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Email *"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Country"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Phone Number"
+                  />
+                </div>
+                <div class="form-group"></div>
+              </div>
+              <div class="col-xl-6 col-sm-12">
+                <div class="form-group d-flex flex-column">
+                  <textarea
+                    name="txtMsg"
+                    class="form-control"
+                    placeholder="Your Message *"
+                  ></textarea>
+                  <input
+                    type="submit"
+                    class="btnContact"
+                    value="Send Message"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="sections-container">
+        <div class="footer-box">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="http://instagram.com">
+                <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="http://facebook.com">
+                <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="http://twitter.com">
+                <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <ul class="web-buttons">
+            <li><a href="#" class="footer-link-secondary">Home</a></li>
+            <li>
+              <a href="#about-us" class="footer-link-secondary"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#main-section" class="footer-link-secondary"
+                >Destinations</a
+              >
+            </li>
+            <li>
+              <a href="#contact-us" class="footer-link-secondary"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <ul class="sign-buttons">
+            <li><a href="#" class="footer-link-tertiary">LOGIN</a></li>
+            <li>
+              <a href="#" class="footer-link-tertiary"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img src="images/travelNow Logo PNG.png" class="logo-footer" alt="logo">
+      </div>
+      <div class="copyright-content">
+        <p class="copyright-paragraph">&copy; 2021 Tirana, Albania, TravelNow, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
